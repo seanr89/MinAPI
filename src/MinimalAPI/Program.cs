@@ -22,9 +22,13 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
+// Configure the HTTP request pipeline.
+if (!app.Environment.IsDevelopment())
+{
+    app.UseAuthorization();
+}
 
-// app.MapControllers();
+
 app.MapGet("/", () => "Hello World!");
 
 app.MapGet("/todoitems", async (TodoDb db) =>
