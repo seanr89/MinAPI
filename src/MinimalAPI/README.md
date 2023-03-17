@@ -22,5 +22,6 @@ Basic API concepts to test out TodoItem storage, creation and reading
 - InMemory: [Link](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.InMemory/7.0.4)
 
 ### Links
-- Microsoft: [Link](https://learn.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-7.0&tabs=visual-studio)
+- Dotnet: [Link](https://dotnet.microsoft.com/en-us/download)
+- Min API: [Link](https://learn.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-7.0&tabs=visual-studio)
 - Linq: [Link](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/)
